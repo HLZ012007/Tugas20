@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KuyyKerja</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+  <style>
+    body {
+      position: relative;
+      min-height: 100vh;
+      margin-bottom: 60px; 
+    }
+    .navbar {
+        margin-bottom: 5%;
+      background-color: transparent !important;
+    }
+    .navbar-toggler {
+      border: none;
+      outline: none;
+    }
+    .navbar-nav .nav-link {
+      color: black !important;
+    }
+    .navbar-brand .kuyy {
+      color: black;
+      font-weight: bold;
+    }
+    .navbar-brand .kerja {
+      color: orange;
+      font-weight: bold;
+    }
+    .navbar-toggler {
+      border-color: black;
+    }
+    .navbar-toggler-icon {
+      background-color: black;
+    }
+    .login-btn {
+      width: 100px;
+      height: 35px;
+      background-color: #FFFFFF;
+      border: 2px solid #FFA500;
+      border-radius: 50px;
+    }
+    .nav-item.home .nav-link {
+      font-weight: bold;
+    }
+
+    .hero {
+      height: 470px;
+    }
+    .hero-image {
+      margin-top: 5%;
+      height: 470px;
+      width: 500px;
+    }
+
+    .bt {
+      color: #FFFFFF;
+      font-weight: bold;
+      box-shadow: 5px 5px#00000063;
+      width: 150px;
+      height: 50px;
+      background-color: orange;
+    }
+    .hero-content {
+      margin-right:  20%;
+      padding: 50px;
+    }
+    .logo {
+      width: 30px;
+      height: 30px;
+      margin-right: 50px;
+    }
+    .logo-text {
+      font-size: 14px;
+      text-align: center;
+      color: #000000;
+      margin-right: 50px;
+    }
+
+    .footer {
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: #060606;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .cp {
+      color: orange;
+    } 
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span class="kuyy">Kuyy</span><span class="kerja">Kerja</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item home">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Info Lowongan Kerja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">For Perusahaan</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <button class="login-btn rounded-pill" type="button">Login</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="hero-content">
+          <h1>Cari Kerja Mudah
+            Rekrutmen Cepat</h1>
+          <p>Solusi untuk para pencari kerja yang ingin bekerja sesuai
+            dengan bidanganya, dan para HRD perusahaan untuk
+            melakukan rekrutmen secara cepat.</p>
+          <div class="d-flex align-items-center">
+            <div>
+              <img class="logo" src="category 1.png" alt="Logo 1">
+              <p class="logo-text">15.000 pengguna</p>
+            </div>
+            <div>
+              <img class="logo" src="category 2.png" alt="Logo 2">
+              <p class="logo-text">100+ kategori</p>
+            </div>
+            <div>
+              <img class="logo" src="category 3.png" alt="Logo 3">
+              <p class="logo-text">1.000++ perusahaan</p>
+            </div>
+          </div>
+          <button class="bt btn rounded-pill">Explor Now</button>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="hero">
+          <img class="hero-image" src="Group 13.png" alt="Hero Image">
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <span class="cp">Copyright-</span>By-HLZ-20235
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
